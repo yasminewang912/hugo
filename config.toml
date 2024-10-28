@@ -1,0 +1,197 @@
+baseURL = "https://www.bmpi.dev"
+title = "BMPI"
+theme = "hugo-coder"
+languagecode = "zh-cn"
+defaultcontentlanguage = "zh-cn"
+
+enableRobotsTXT = true
+canonifyURLs = true
+
+enableGitInfo = true
+enableEmoji = true
+
+paginate = 9999
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = false
+pluralizelisttitles = false
+
+FootnoteReturnLinkContents = "↑"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[outputs]
+page     = ["HTML", "AMP"]
+home     = ["HTML", "RSS"]
+section  = ["HTML"]
+taxonomyTerm = ["HTML"]
+taxonomy = ["HTML"]
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[params]
+author = "Dawei Ma"
+info1 = "📚"
+info1Tooltip = "Lifelong Learner"
+info2 = "👨‍💻"
+info2Tooltip = "Full-Stack Developer"
+info3 = "💴"
+info3Tooltip = "ETF Trader"
+description = "Study + Craft + Invest = BMPI.dev"
+keywords = "life,dev,trade,passive income,money,developer,Self-management,IT technology,investment transactions"
+avatarurl = "images/avatar/111.PNG"
+logoImg = "images/logo.png"
+header = "BMPI.dev"
+
+twitter = "madawei2699"
+github = "bmpi-dev"
+telegram = "bmpi365"
+zhihu = "improve365"
+
+favicon_root_path = "images/ico"
+
+# footercontent = "self/dev/money"
+
+hidecredits = true
+hidecopyright = false
+
+series = true
+
+rtl = false
+
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorscheme = "auto"
+
+# Series see also post count
+maxSeeAlsoItems = 5
+
+math = true
+custom_css = ["/css/main.css"]
+custom_js = ["/js/lazysizes.min.js", "/js/custom.js"]
+
+dateFormat = "2006-01-02"
+
+# AMP
+amp = true
+ampElements = ["amp-ad","amp-analytics"]
+themeColor = "#000000"
+adsensePublisher = "ca-pub-1886683614725279"
+googleAnalytics = "UA-154678195-1"
+
+# OG
+og_image = "images/bg2.png"
+
+# Social links
+[[params.social]]
+name = "Github"
+icon = "fab fa-github"
+weight = 1
+url = "https://github.com/madawei2699"
+[[params.social]]
+name = "YouTube"
+icon = "fab fa-youtube"
+weight = 2
+url = "https://www.youtube.com/channel/UCbg-Y24Z1H0nONW-bxgzv6w"
+[[params.social]]
+name = "Telegram"
+icon = "fab fa-telegram"
+weight = 3
+url = "https://t.me/s/bmpi365"
+[[params.social]]
+name = "WeChat"
+icon = "fab fa-weixin"
+weight = 4
+url = "https://img.bmpi.dev/4e0bae9a-fa9d-5b84-d928-592bd9c2c9fb.png"
+[[params.social]]
+name = "ZhiHu"
+icon = "fab fa-zhihu"
+weight = 5
+url = "https://zhuanlan.zhihu.com/improve365"
+[[params.social]]
+name = "Newsletter"
+icon = "fas fa-envelope"
+weight = 6
+url = "https://tinyletter.com/bmpi-dev"
+[[params.social]]
+name = "RSS"
+icon = "fas fa-rss"
+weight = 7
+url = "index.xml"
+[[params.social]]
+name = "Dev.to"
+icon = "fas fa-dev-to"
+weight = 8
+url = "https://dev.to/madawei2699"
+[[params.social]]
+name = "即刻"
+icon = "far fa-jk"
+weight = 9
+url = "https://web.okjike.com/u/7A7EB661-B6FC-47CF-B75B-46DB8D096D5C"
+
+[languages]
+[languages.en]
+languagename = "English"
+
+[languages.en.menu]
+[[languages.en.menu.main]]
+name = "LinkedIn"
+weight = 1
+url  = "https://www.linkedin.com/in/madawei2699"
+[[languages.en.menu.main]]
+name = "GitHub"
+weight = 2
+url  = "https://github.com/madawei2699"
+[[languages.en.menu.main]]
+name = "Learn"
+weight = 3
+url  = "/self/"
+[[languages.en.menu.main]]
+name = "Dev"
+weight = 4
+url  = "/dev/"
+
+[languages.zh-cn]
+languagename = "Chinese"
+title = "BMPI"
+
+[languages.zh-cn.params]
+author = "yasminewang"
+info1 = "📚"
+info1Tooltip = "终身学习/认知杠杆"
+info2 = "👨‍💻"
+info2Tooltip = "全栈技术/时间杠杆"
+info3 = "💴"
+info3Tooltip = "投资理财/财务杠杆"
+description = "终身学习（认知杠杆）* 全栈技术（时间杠杆）* 投资理财（财务杠杆） => 被动收入（人生杠杆）"
+# footercontent = "self/dev/money"
+
+[languages.zh-cn.menu]
+[[languages.zh-cn.menu.main]]
+name = "GitHub"
+weight = 1
+url  = "https://github.com/madawei2699"
+[[languages.zh-cn.menu.main]]
+name = "Twitter"
+weight = 2
+url  = "https://twitter.com/madawei2699"
+[[languages.zh-cn.menu.main]]
+name = "学习"
+weight = 3
+url  = "/self/"
+[[languages.zh-cn.menu.main]]
+name = "技术"
+weight = 4
+url  = "https://www.i365.tech/"
+[[languages.zh-cn.menu.main]]
+name = "投资"
+weight = 5
+url  = "https://www.myinvestpilot.com/"
