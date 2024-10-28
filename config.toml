@@ -1,4 +1,4 @@
-baseURL = "https://www.bmpi.dev"
+baseURL = "https://zippy-kashata-a3c579.netlify.app"
 title = "BMPI"
 theme = "hugo-coder"
 languagecode = "zh-cn"
