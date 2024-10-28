@@ -44,7 +44,7 @@ info3 = "💴"
 info3Tooltip = "ETF Trader"
 description = "Study + Craft + Invest = BMPI.dev"
 keywords = "life,dev,trade,passive income,money,developer,Self-management,IT technology,investment transactions"
-avatarurl = "images/avatar/5_512.PNG"
+avatarurl = "images/avatar/111.PNG"
 logoImg = "images/logo.png"
 header = "BMPI.dev"
 
@@ -164,7 +164,7 @@ languagename = "Chinese"
 title = "BMPI"
 
 [languages.zh-cn.params]
-author = "马大伟"
+author = "yasminewang"
 info1 = "📚"
 info1Tooltip = "终身学习/认知杠杆"
 info2 = "👨‍💻"
