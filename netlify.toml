@@ -1,0 +1,5 @@
+[context.production.environment]
+HUGO_VERSION = "v0.136.5+extended"
+[build]
+publish = "public"
+command = "hugo --gc && node _tools/newpostcheck.js"
